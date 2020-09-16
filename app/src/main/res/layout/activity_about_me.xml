@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <variable
+            name="MyName"
+            type="com.example.diceroller.MyName" />
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutMeActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/nameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@={MyName.name}"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nick_name"
+        style="@style/nameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nick_name_hint"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:maxEms="10"
+         />
+
+    <TextView
+        android:id="@+id/tv_nick_name"
+        style="@style/nameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@={MyName.nickName}"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/star_iv_content_desc"
+
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        style="@style/nameStyle"
+        />
+
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_done_text"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.AppCompat.Button"
+        />
+
+    <ScrollView
+        android:id="@+id/sv_me_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/me_desc_right_padding"
+        android:paddingEnd="@dimen/me_desc_right_padding"
+        android:layout_marginTop="16dp"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_me_desc"
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.2"
+            />
+    </ScrollView>
+
+</LinearLayout>
+</layout>

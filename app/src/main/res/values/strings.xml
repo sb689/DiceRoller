@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Roll</string>
+    <string name="name">Abc</string>
+    <string name="star_iv_content_desc">image of a star</string>
+    <string name="text_me_desc">In 1928, George plans a world tour before college
+        and is reintroduced to Mary Hatch, who has always had a crush on him.
+        The attraction is now mutual. When his father suffers a stroke and dies,
+        George postpones his travel to sort out the family business,
+        Bailey Brothers Building and Loan, which avaricious board
+        member Henry F. Potter, who controls most of the town\'s businesses,
+        seeks to dissolve. The other board members vote to keep the Building
+        and Loan open if George will run it. George acquiesces and
+        works alongside his uncle, Billy, and gives his tuition to Harry,
+        with the understanding that Harry will run the business when he graduates.
+        \n\n
+
+        Harry returns from college married and with an excellent
+        job offer from his father-in-law. George is dejected but doesn\'t
+        stand in Harry\'s way and continues running Building and Loan.
+        Immediately following their wedding, George and Mary witness a run on the bank,
+        and use their $2,000 honeymoon savings to keep the Building and Loan solvent.
+        \n\n
+        Under George\'s leadership, the company eventually establishes Bailey Park,
+        a modern housing development to rival Potter\'s overpriced slums.
+        Potter offers George $20,000 a year to be his assistant, but,
+        realizing that Potter\'s true intention is to shut down the Building and Loan,
+            George rebuffs and rebukes him.
+    </string>
+    <string name="nick_name_hint">What is your nick name?</string>
+    <string name="button_done_text">Done</string>
+</resources>
